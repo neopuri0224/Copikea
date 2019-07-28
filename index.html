@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <title>Copikea</title>
+  </head>
+  <body>
+    <header>
+      <div class="topCampaign">
+      	<div class="haisou">
+      	  <h3>今だけ配送料無料！</h3>
+        </div>
+        <div class="kuwasiku">
+      	  <h3>詳しくはこちら</h3>
+        </div>
+      </div>
+      <nav class="topNav">
+      	<P class="family">KOIYA<br>FAMILY</P>
+      	<P class="business">KOIYA<br>BUSINESS</P>
+      	<ul class="topNavList">
+      	  <li class="topNavListItem">よくある質問</li>
+      	  <li class="topNavListItem">お問い合わせ</li>
+      	  <li class="topNavListItem">English</li>
+      	</ul>
+      </nav>
+      <nav class="middleNav">
+      	<div class="Logo">
+      	  <div class="LogoYellow">
+      	  	<h2>KOIYA</h2>
+      	  </div>
+      	</div>
+      	<h4 class="kutsurogi">てきとうに冒険</h4>
+      	<div class="form">
+          <textarea id="textForm" class="textForm"></textarea>
+        </div>
+        <div class="login" id="login-show">ログイン</div>
+        <div class="login-modal-wrapper" id="login-modal">
+          <div class="modal">
+            <div class="close-modal">
+              <i class="fa fa-2x fa-times"></i>
+            </div>
+            <div id="login-form">
+              <h2>Emailログイン</h2>
+              <form action="#">
+                <input class="form-control" type="text" placeholder="メールアドレス">
+                <input class="form-control" type="password" placeholder="パスワード">
+                <div id="submit-btn">ログイン</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="bottomNav">
+        <ul class="bottomNavList">
+          <li class="bottomNavListItem">商品一覧</li>
+          <li class="bottomNavListItem">ショールーム</li>
+          <li class="bottomNavListItem">新商品</li>
+          <li class="bottomNavListItem">アイデア</li>
+        </ul>
+      </nav>
+      <div class="topInformation">
+      </div>
+    </header>
+    <div class="mainVisual">
+      <div class="changeBtnWrapper">
+        <div class="changeBtn prevBtn"><</div>
+        <div class="changeBtn nextBtn">></div>
+      </div>
+      <ul class="slides">
+        <li class="slide active"><img src="img/mv.jpg"></li>
+        <li class="slide"><img src="img/asia.jpg"></li>
+        <li class="slide"><img src="img/desert.jpg"></li>
+        <li class="slide"><img src="img/forest.jpg"></li>
+        <li class="slide"><img src="img/italy.jpg"></li>
+      </ul>
+      <div class="indexBtnWrapper">
+        <div class="indexBtn"></div>
+        <div class="indexBtn"></div>
+        <div class="indexBtn"></div>
+        <div class="indexBtn"></div>
+        <div class="indexBtn"></div>
+      </div>
+    </div>
+    <div class="products">
+      <ul class="menuIndex">
+      	<li class="menu menuActive">おすすめ</li>
+      	<li class="menu">FAMILY</li>
+      	<li class="menu">今月のピックアップ</li>
+      </ul>
+      <ul class="menuSlides">
+        <li class="menuSlide menuSlideActive">
+          <ul class="menuLine">
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img1.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">冷やしタオル</li>
+          	  	  <li class="genre">布製品</li>
+          	  	  <li class="price">¥100</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img2.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">犬ソリ</li>
+          	  	  <li class="genre">イベント</li>
+          	  	  <li class="price">¥100,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img3.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">リクライニングソファ</li>
+          	  	  <li class="genre">家電</li>
+          	  	  <li class="price">¥250,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img4.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">ダイビング郵便</li>
+          	  	  <li class="genre">イベント</li>
+          	  	  <li class="price">¥20,040</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img5.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">宇宙服</li>
+          	  	  <li class="genre">衣類</li>
+          	  	  <li class="price">¥349,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo"></li>
+          </ul>
+        </li>
+        <li class="menuSlide">
+          <ul class="menuLine">
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img6.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">タングルテイヤー</li>
+          	  	  <li class="genre">美容</li>
+          	  	  <li class="price">¥1,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img7.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">ワイシャツ</li>
+          	  	  <li class="genre">衣類</li>
+          	  	  <li class="price">¥1,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img8.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">中二病男</li>
+          	  	  <li class="genre">人類</li>
+          	  	  <li class="price">¥100,000,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img9.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">壊れたパソコン</li>
+          	  	  <li class="genre">ジャンク</li>
+          	  	  <li class="price">¥9,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img10.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">SUVカー</li>
+          	  	  <li class="genre">自動車</li>
+          	  	  <li class="price">¥3,490,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	</li>
+          </ul>
+        </li>
+        <li class="menuSlide">
+          <ul class="menuLine">
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img11.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">熱中症</li>
+          	  	  <li class="genre">病気</li>
+          	  	  <li class="price">¥49,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img12.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">ちゃんこ鍋</li>
+          	  	  <li class="genre">食料品</li>
+          	  	  <li class="price">¥9,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img13.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">さつまいも</li>
+          	  	  <li class="genre">野菜</li>
+          	  	  <li class="price">¥300</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img14.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">テニス体験</li>
+          	  	  <li class="genre">スポーツ</li>
+          	  	  <li class="price">¥5,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo">
+          	  <div class="product">
+          	  	<img src="img/img15.png">
+          	  	<ul class="productInfo">
+          	  	  <li class="name">手相占い</li>
+          	  	  <li class="genre">占い</li>
+          	  	  <li class="price">¥3,000</li>
+          	  	</ul>
+          	  </div>
+          	</li>
+          	<li class="menuInfo"></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <div class="scrollTop"><h1>↑</h1></div>
+      <div class="footerInfo">
+      	<ul class="infoList">
+      	  <li class="infoListItem">
+      	  	<i class="far fa-user"></i>
+      	  	<h3>コイヤの便利なサービス</h3>
+      	  	<ul class="service">
+      	  	  <li class="serviceList">配送サービス</li>
+      	  	  <li class="serviceList">小物配送サービス</li>
+      	  	  <li class="serviceList">家具組み立てサービス</li>
+      	  	  <li class="serviceList">引き取りサービス</li>
+      	  	  <li class="serviceList">家具下取り・還元サービス</li>
+      	  	</ul>
+      	  </li>
+      	  <li class="infoListItem">
+      	  	<i class="far fa-user"></i>
+      	  	<h3>カスタマーサービス</h3>
+      	  	<ul class="service">
+      	  	  <li class="serviceList">商品について</li>
+      	  	  <li class="serviceList">お買い物について</li>
+      	  	  <li class="serviceList">お問い合わせ</li>
+      	  	  <li class="serviceList">よくある質問</li>
+      	  	  <li class="serviceList">コイヤレビュー</li>
+      	  	</ul>
+      	  </li>
+      	  <li class="infoListItem">
+      	  	<i class="far fa-user"></i>
+      	  	<h3>コイヤの便利なサービス</h3>
+      	  	<ul class="service">
+      	  	  <li class="serviceList">配送サービス</li>
+      	  	  <li class="serviceList">小物配送サービス</li>
+      	  	  <li class="serviceList">家具組み立てサービス</li>
+      	  	  <li class="serviceList">引き取りサービス</li>
+      	  	  <li class="serviceList">家具下取り・還元サービス</li>
+      	  	</ul>
+      	  </li>
+      	  <li class="infoListItem">
+      	  	<i class="far fa-user"></i>
+      	  	<h3>コイヤの便利なサービス</h3>
+      	  	<ul class="service">
+      	  	  <li class="serviceList">配送サービス</li>
+      	  	  <li class="serviceList">小物配送サービス</li>
+      	  	  <li class="serviceList">家具組み立てサービス</li>
+      	  	  <li class="serviceList">引き取りサービス</li>
+      	  	  <li class="serviceList">家具下取り・還元サービス</li>
+      	  	</ul>
+      	  </li>
+      	  <li class="infoListItem">
+      	  	<i class="far fa-user"></i>
+      	  	<h3>コイヤの便利なサービス</h3>
+      	  	<ul class="service">
+      	  	  <li class="serviceList">配送サービス</li>
+      	  	  <li class="serviceList">小物配送サービス</li>
+      	  	  <li class="serviceList">家具組み立てサービス</li>
+      	  	  <li class="serviceList">引き取りサービス</li>
+      	  	  <li class="serviceList">家具下取り・還元サービス</li>
+      	  	</ul>
+      	  </li>
+      	  <li class="infoListItem">
+      	  	<i class="far fa-user"></i>
+      	  	<h3>コイヤの便利なサービス</h3>
+      	  	<ul class="service">
+      	  	  <li class="serviceList">配送サービス</li>
+      	  	  <li class="serviceList">小物配送サービス</li>
+      	  	  <li class="serviceList">家具組み立てサービス</li>
+      	  	  <li class="serviceList">引き取りサービス</li>
+      	  	  <li class="serviceList">家具下取り・還元サービス</li>
+      	  	</ul>
+      	  </li>
+      	  <li class="infoListItem">
+      	  	<i class="far fa-user"></i>
+      	  	<h3>コイヤの便利なサービス</h3>
+      	  	<ul class="service">
+      	  	  <li class="serviceList">配送サービス</li>
+      	  	  <li class="serviceList">小物配送サービス</li>
+      	  	  <li class="serviceList">家具組み立てサービス</li>
+      	  	  <li class="serviceList">引き取りサービス</li>
+      	  	  <li class="serviceList">家具下取り・還元サービス</li>
+      	  	</ul>
+      	  </li>
+      	</ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
